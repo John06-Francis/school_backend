@@ -1,5 +1,19 @@
 {
-    "require": {
-        "thingengineer/mysqli-database-class": "dev-master"
+  "name": "jojoyu/school-management",
+  "authors": [
+    {
+      "name": "John Francis Espartinez",
+      "email": "johnfrancisespartinez06@gmail.com"
     }
+  ],
+  "require": {
+    "guzzlehttp/guzzle": "^7.3",
+    "lcobucci/jwt": "^3.4",
+    "thingengineer/mysqli-database-class": "^2.9"
+  },
+  "autoload": {
+    "psr-4": {
+      "Source\\": "SchoolManagement/Source/"
+    }
+  }
 }
